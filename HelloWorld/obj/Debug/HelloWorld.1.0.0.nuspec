@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>HelloWorld</id>
+    <version>1.0.0</version>
+    <authors>HelloWorld</authors>
+    <owners>HelloWorld</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.ServiceFabric.AspNetCore.Kestrel" version="3.1.262" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/netcoreapp3.1/appsettings.Development.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/appsettings.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Properties/launchSettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\bin\Debug\netcoreapp3.1\linux-x64\HelloWorld.Views.dll" target="lib\netcoreapp3.1\HelloWorld.Views.dll" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\bin\Debug\netcoreapp3.1\linux-x64\HelloWorld.runtimeconfig.json" target="lib\netcoreapp3.1\HelloWorld.runtimeconfig.json" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\bin\Debug\netcoreapp3.1\linux-x64\HelloWorld.dll" target="lib\netcoreapp3.1\HelloWorld.dll" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\obj\Debug\netcoreapp3.1\linux-x64\staticwebassets\msbuild.HelloWorld.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\obj\Debug\netcoreapp3.1\linux-x64\staticwebassets\msbuild.build.HelloWorld.props" target="build\HelloWorld.props" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\obj\Debug\netcoreapp3.1\linux-x64\staticwebassets\msbuild.buildMultiTargeting.HelloWorld.props" target="buildMultiTargeting\HelloWorld.props" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\obj\Debug\netcoreapp3.1\linux-x64\staticwebassets\msbuild.buildTransitive.HelloWorld.props" target="buildTransitive\HelloWorld.props" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\css\site.css" target="staticwebassets\css\site.css" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\favicon.ico" target="staticwebassets\favicon.ico" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\js\site.js" target="staticwebassets\js\site.js" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\css\bootstrap.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.css" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\js\bootstrap.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.js" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\bootstrap\LICENSE" target="staticwebassets\lib\bootstrap\LICENSE\LICENSE" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" target="staticwebassets\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" target="staticwebassets\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" target="staticwebassets\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\jquery-validation\dist\additional-methods.js" target="staticwebassets\lib\jquery-validation\dist\additional-methods.js" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" target="staticwebassets\lib\jquery-validation\dist\additional-methods.min.js" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\jquery-validation\dist\jquery.validate.js" target="staticwebassets\lib\jquery-validation\dist\jquery.validate.js" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" target="staticwebassets\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\jquery-validation\LICENSE.md" target="staticwebassets\lib\jquery-validation\LICENSE.md" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\jquery\dist\jquery.js" target="staticwebassets\lib\jquery\dist\jquery.js" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\jquery\dist\jquery.min.js" target="staticwebassets\lib\jquery\dist\jquery.min.js" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\jquery\dist\jquery.min.map" target="staticwebassets\lib\jquery\dist\jquery.min.map" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\wwwroot\lib\jquery\LICENSE.txt" target="staticwebassets\lib\jquery\LICENSE.txt" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\appsettings.Development.json" target="content\appsettings.Development.json" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\appsettings.Development.json" target="contentFiles\any\netcoreapp3.1\appsettings.Development.json" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\appsettings.json" target="content\appsettings.json" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\appsettings.json" target="contentFiles\any\netcoreapp3.1\appsettings.json" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\Properties\launchSettings.json" target="content\Properties\launchSettings.json" />
+    <file src="E:\mywork\DemoAspnetcoreinLinux\HelloWorld\Properties\launchSettings.json" target="contentFiles\any\netcoreapp3.1\Properties\launchSettings.json" />
+  </files>
+</package>
