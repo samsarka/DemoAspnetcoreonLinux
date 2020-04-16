@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "baMHxlAs4Vmo8pES0S5FTlWl6DU1689lMTddEKwi7fNXQo70BAeuRE4hbPzZLjdQjWsQzCmBt2lTCq8J0xxdsg==",
+  "dgSpecHash": "l4is7KWGH+1jCYIql5velvpPMhQhaWRnQcKVhraLvVm81MRjyZeTDAs3G1bdZN2XwWqMvP0sOpXRl43d3vje0g==",
   "success": true,
-  "projectFilePath": "C:\\GITRepos\\DemoAspnetcoreinLinux\\HelloWorld\\HelloWorld.csproj",
+  "projectFilePath": "C:\\GITRepos\\DemoAspnetcoreonLinux\\HelloWorld\\HelloWorld.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samsarka\\.nuget\\packages\\libuv\\1.9.0\\libuv.1.9.0.nupkg.sha512",
     "C:\\Users\\samsarka\\.nuget\\packages\\microsoft.aspnetcore.hosting\\1.0.0\\microsoft.aspnetcore.hosting.1.0.0.nupkg.sha512",

@@ -7723,11 +7723,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GITRepos\\DemoAspnetcoreinLinux\\HelloWorld\\HelloWorld.csproj",
+      "projectUniqueName": "C:\\GITRepos\\DemoAspnetcoreonLinux\\HelloWorld\\HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "C:\\GITRepos\\DemoAspnetcoreinLinux\\HelloWorld\\HelloWorld.csproj",
+      "projectPath": "C:\\GITRepos\\DemoAspnetcoreonLinux\\HelloWorld\\HelloWorld.csproj",
       "packagesPath": "C:\\Users\\samsarka\\.nuget\\packages\\",
-      "outputPath": "C:\\GITRepos\\DemoAspnetcoreinLinux\\HelloWorld\\obj\\",
+      "outputPath": "C:\\GITRepos\\DemoAspnetcoreonLinux\\HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
